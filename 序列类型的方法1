@@ -1,0 +1,7 @@
+# 列表[‘hello’,‘python’,‘!’] 拼接并 输出'hello python !' （至少两种以上的方法）
+a = ['hello','python','!']
+print(a[0] + ' ' + a[1] + a[2])  # 第一种
+
+print('%s %s%s'%(a[0],a[1],a[2]))  # 第二种
+
+print(' '.join(a))  # 第三种
