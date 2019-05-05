@@ -1,0 +1,10 @@
+# 用多种方法往列表中插入值
+a = [1,2,3,4]
+a.append(5)
+print(a)
+
+a.insert(5,6)  # 5为插入的位置；6为插入的值
+print(a)
+
+a.extend('hello')  #以每一个字符加入a列表中['h','e','l','l','o']
+print(a)
