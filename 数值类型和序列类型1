@@ -1,0 +1,3 @@
+# 自定义一个字符串（eg：a = “hello,world!”），用切片的方式进行逆序
+a = 'hello,world!'
+print(list(a[::-1]))
