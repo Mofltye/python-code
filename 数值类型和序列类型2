@@ -1,0 +1,10 @@
+# 有一个时间形式(eg: 20180929),要求从这个格式中得到年、月、日
+time = {'year':2018,'month':9,'day':29}
+while True:
+	time_name = input('请输入年，月，日：')
+	if time_name == 'year':
+		print(time[year])
+	elif time_name == 'month':
+		print(time[month])
+	else:
+		print(time[day])
